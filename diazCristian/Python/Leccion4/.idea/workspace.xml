@@ -2,8 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="99f0b9d4-078f-45d6-b9c2-b3caa944f72c" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/../../.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/../../.gitignore" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/../../Java/JavaApplication1/src/CicloWhile/EjercicioWhile01.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../Java/JavaApplication1/src/CicloWhile/EjercicioWhile01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pythonProject1/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/pythonProject1/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -13,9 +12,9 @@
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/pythonProject1" />
   </component>
-  <component name="ProjectColorInfo"><![CDATA[{
-  "associatedIndex": 7
-}]]></component>
+  <component name="ProjectColorInfo">{
+  &quot;associatedIndex&quot;: 7
+}</component>
   <component name="ProjectId" id="2lDPouu07nrL8PFozmZKCwcIHbZ" />
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
@@ -25,7 +24,7 @@
   "keyToString": {
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "main",
-    "last_opened_file_path": "D:/universidad - Programacion II/Python/Leccion4"
+    "last_opened_file_path": "D:/Dynamic-Devs/diazCristian/Python/Leccion4"
   }
 }]]></component>
   <component name="SharedIndexes">
