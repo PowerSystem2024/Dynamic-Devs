@@ -7,7 +7,7 @@ Programacion II
 ## Integrantes 👨‍💻
 - Cortez Héctor Armando
 - Cruz Noelia
-- Díaz Cristian
+- Díaz Cristian Ivan
 - Díaz Federico
 - Giménez Miqueas Ezequiel
 - Mateos Eduardo
