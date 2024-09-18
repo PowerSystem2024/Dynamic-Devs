@@ -193,3 +193,162 @@ Ahora cuando creamos un repositorio desde la nube, osea desde GitHub, ya verás 
 **Dante Nicolás Martinez**
 
 <sub>**Segundo Semestre Parte 3:**</sub>
+
+# CLASE 04 MIÉRCOLES 4 DE SEPTIEMBRE DEL 2024 - Portafolio 4
+
+
+
+1. Tu primer push
+La creación de las SSH es necesario solo una vez por cada computadora. Aquí conocerás cómo conectar a GitHub usando SSH.
+
+
+Luego de crear nuestras llaves SSH podemos entregarle la llave pública a GitHub para comunicarnos de forma segura y sin necesidad de escribir nuestro usuario y contraseña todo el tiempo.
+
+Para esto debes entrar a la Configuración de Llaves SSH en GitHub, crear una nueva llave con el nombre que le quieras dar y el contenido de la llave pública de tu computadora.
+
+Ahora podemos actualizar la URL que guardamos en nuestro repositorio remoto, solo que, en vez de guardar la URL con HTTPS, vamos a usar la URL con SSH:
+
+ssh
+
+<sub>git remote set-url origin url-ssh-del-repositorio-en-github</sub>
+
+Comandos para copiar la llave SSH:
+
+ESTAS SON LAS RUTAS DEL SSH PUBLICO
+-Mac:
+pbcopy < ~/.ssh/id_rsa.pub
+
+Windows (Git Bash):
+
+clip < ~/.ssh/id_rsa.pub
+
+Linux (Ubuntu):
+
+cat ~/.ssh/id_rsa.pub
+
+
+
+Importante
+
+
+Las buenas costumbres nos enseñan que antes de hacer un push, siempre debemos hacer un pull, un fetch, esto para que si alguien ya hizo algún cambio, no se genere un conflicto.
+
+Invitar a un colaborador
+
+Para invitar a un colaborador debemos ir a GitHub y seleccionar:
+setting -> colaborators -> ingresar contraseña o un F2A de verificación y enviar la invitación escribiendo el nombre de usuario.
+
+
+Del otro lado el usuario invitado solo debe aceptar y listo, ya puede participar del proyecto haciendo commit.
+
+<hr>
+
+# CLASE 05 MIÉRCOLES 11 DE SEPTIEMBRE DEL 2024 - Portafolio 5
+
+
+
+
+Git tag y versiones en GitHub
+
+En Git, las etiquetas o Git tags tienen un papel importante al asignar versiones a los commits más significativos de un proyecto. Aprender a utilizar el comando git tag, entender los diferentes tipos de etiquetas, cómo crearlas, eliminarlas y compartirlas, es esencial para un flujo de trabajo eficiente.
+
+
+Creación de etiquetas en Git
+
+```sh
+git tag
+
+```
+
+
+Sustituye con un identificador semántico que refleje el estado del repositorio en el momento de la creación. Git admite etiquetas anotadas y ligeras.
+
+Listado de etiquetas
+Para obtener una lista de etiquetas en el repositorio, ejecuta el siguiente comando:
+
+>$ git tag -a v1.0 -m "Product release"
+  git tag -a ronburgundy -m "Brick killed a guy a trident."
+
+  Para crear una etiqueta, ejecuta el siguiente comando:
+
+
+
+Las etiquetas anotadas almacenan información adicional como la fecha, etiquetador y correo electrónico, y son ideales para publicaciones públicas. Las etiquetas ligeras son más simples y se emplean como “marcadores” de una confirmación específica.
+
+
+git tag
+
+Esto mostrará una lista de las etiquetas existentes, como:
+
+v1.0
+
+v1.1
+
+v1.2
+
+Para perfeccionar la lista, puedes utilizar opciones adicionales, como -l con una expresión comodín.
+
+
+Uso compartido de etiquetas
+
+Compartir etiquetas requiere un enfoque explícito al usar el comando git push. Por defecto, las etiquetas no se envían automáticamente. Para enviar etiquetas específicas, utiliza:
+
+git push origin
+
+Para enviar varias etiquetas a la vez, usa:
+
+git push origin --tags
+
+
+Eliminación de etiquetas
+Para eliminar una etiqueta, usa el siguiente comando:
+
+git tag -d
+
+Esto eliminará la etiqueta identificada por en el repositorio local.
+
+En resumen, las etiquetas en Git son esenciales para asignar versiones y capturar instantáneas importantes en el historial de un proyecto. Aprender a crear, listar, compartir y eliminar etiquetas mejorará tu flujo de trabajo con Git.
+
+<hr>
+
+# CLASE 06 MIÉRCOLES 18 DE SEPTIEMBRE DEL 2024 - Portafolio 6
+
+>Error con los tags
+Investigación: ¿Qué pasa si por error cargamos un tag dos veces?
+
+¿Cómo solucionarías este problema o error?
+
+La respuesta debe ser enviada antes de las 23 horas por cada grupo, deben enviar comandos y todo los pasos que harían frente a este conflicto.
+
+Nosotros lo resolveremos aqui:
+
+
+Para eliminar una etiqueta, usaremos el siguiente comando:
+
+>git tag -d "Nombre de la etiqueta"
+
+1. Primero lo que deberiamos hacer seria listar los tags para ver cual tenemos duplicado ejecutamos el siguiente comando:
+
+>git tag
+
+2. Eliminar el tag duplicado localmente
+Supongamos que el tag duplicado se llama v1.0.0. Para eliminar el tag localmente, usaremos el siguiente comando:
+
+>git tag -d v1.0.0.
+
+Este comando solo elimina el tag en nuestro repositorio local.
+
+3. Eliminar el tag duplicado en el repositorio remoto
+Después de eliminar el tag localmente, también debemos eliminarlo del repositorio remoto. Para hacerlo, ejecutaremos:
+
+En el git BASH ejecutaremos
+
+>git push origin --delete v1.0.0
+
+Este comando elimina el tag de nuestro repositorio en GitHub.
+
+4. Verificación final
+Para asegurarnos de que todo se ha resuelto correctamente, listaremos los tags en el repositorio remoto:
+
+>git ls-remote --tags origin
+
