@@ -309,3 +309,5 @@ Esto eliminará la etiqueta identificada por en el repositorio local.
 
 En resumen, las etiquetas en Git son esenciales para asignar versiones y capturar instantáneas importantes en el historial de un proyecto. Aprender a crear, listar, compartir y eliminar etiquetas mejorará tu flujo de trabajo con Git.
 
+<hr>
+
