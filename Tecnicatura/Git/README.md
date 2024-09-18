@@ -242,3 +242,4 @@ setting -> colaborators -> ingresar contraseña o un F2A de verificación y envi
 Del otro lado el usuario invitado solo debe aceptar y listo, ya puede participar del proyecto haciendo commit.
 
 <hr>
+
