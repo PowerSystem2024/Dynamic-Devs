@@ -393,3 +393,12 @@ Manejo de ramas en GitHub
 
 Si no te funciona el comando gitk es posible no lo tengas instalado por defecto.
 Para instalar gitk debemos ejecutar los siguientes comandos:
+
+```sh
+
+  sudo apt-get update
+
+
+  sudo apt-get install gitk
+
+```
