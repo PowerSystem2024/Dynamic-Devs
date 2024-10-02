@@ -371,3 +371,6 @@ El error de tener dos tags con el mismo nombre en Git generalmente ocurre debido
 3. Errores de sincronización: Si hay problemas de sincronizacion entre el repositorio local y remoto, como conflictos no resueltos o actualizaciones no aplicadas, puede parecer que hay dos tags con el mismo nombre.
 
 Para solucionar estos problemas seguiremos estos pasos:
+
+1. Eliminar el tag localmente:
+git tag -d nombre_del_tag
