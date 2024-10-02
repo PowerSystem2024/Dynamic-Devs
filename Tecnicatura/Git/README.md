@@ -380,3 +380,6 @@ git push origin --delete nombre_del_tag
 
 3. Crear el nuevo tag  (si es necesario):
 git tag nombre_del_tag
+
+4. Enviar el nuevo tag al repositorio remoto:
+git push origin nombre_del_tag
