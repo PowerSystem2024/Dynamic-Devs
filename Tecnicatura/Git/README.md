@@ -365,3 +365,5 @@ Investigación: Si un tag es imposible generarlo dos veces ¿Cómo es que existe
 El error de tener dos tags con el mismo nombre en Git generalmente ocurre debido a un malentendido o una operacion incorrecta en el repositorio remoto. Aqui hay algunas situaciones comunes que pueden causar este problema.
 
 1. Fuerza de actualizacion de tags. Si alguien fuerza la actualizacion de un tag existente usando el comando git push --force, puede sobrescribir el tag en el repositorio remoto. Esto puede causar confusión si otros desarrolladores ya han referenciado el tag anterior.
+
+2. Confusion entre tags y remotos: A veces, los desarrolladores pueden tener un tag local que no coincide con el tag remoto. Si intentan crear un tag con el mismo nombre sin sincronizar correctamente, pueden surgir conflictos.
