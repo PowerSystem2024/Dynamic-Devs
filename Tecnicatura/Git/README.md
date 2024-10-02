@@ -374,3 +374,9 @@ Para solucionar estos problemas seguiremos estos pasos:
 
 1. Eliminar el tag localmente:
 git tag -d nombre_del_tag
+
+2. Eliminar el tag del repositorio remoto:
+git push origin --delete nombre_del_tag
+
+3. Crear el nuevo tag  (si es necesario):
+git tag nombre_del_tag
