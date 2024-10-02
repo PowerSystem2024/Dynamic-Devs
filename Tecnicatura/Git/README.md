@@ -383,3 +383,5 @@ git tag nombre_del_tag
 
 4. Enviar el nuevo tag al repositorio remoto:
 git push origin nombre_del_tag
+
+<p>Estos pasos aseguran que el tag sea único y esté correctamente sincronizado entre el repositorio local y el remoto.</p>
