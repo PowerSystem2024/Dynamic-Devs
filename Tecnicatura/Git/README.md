@@ -385,3 +385,6 @@ git tag nombre_del_tag
 git push origin nombre_del_tag
 
 <p>Estos pasos aseguran que el tag sea único y esté correctamente sincronizado entre el repositorio local y el remoto.</p>
+
+
+# CLASE 08 MIÉRCOLES 2 DE OCTUBRE DEL 2024 - Portafolio 8
