@@ -352,3 +352,7 @@ Para asegurarnos de que todo se ha resuelto correctamente, listaremos los tags e
 
 >git ls-remote --tags origin
 
+
+<hr>
+
+# CLASE 07 MIÉRCOLES 25 DE SEPTIEMBRE DEL 2024 - Portafolio 7
