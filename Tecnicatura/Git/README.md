@@ -352,3 +352,72 @@ Para asegurarnos de que todo se ha resuelto correctamente, listaremos los tags e
 
 >git ls-remote --tags origin
 
+
+<hr>
+
+# CLASE 07 MIÉRCOLES 25 DE SEPTIEMBRE DEL 2024 - Portafolio 7
+
+Error con los tags
+Investigación: Si un tag es imposible generarlo dos veces ¿Cómo es que existe el error de dos tags con el mismo nombre?
+
+¿Cómo se origina este problema o error?
+
+El error de tener dos tags con el mismo nombre en Git generalmente ocurre debido a un malentendido o una operacion incorrecta en el repositorio remoto. Aqui hay algunas situaciones comunes que pueden causar este problema.
+
+1. Fuerza de actualizacion de tags. Si alguien fuerza la actualizacion de un tag existente usando el comando git push --force, puede sobrescribir el tag en el repositorio remoto. Esto puede causar confusión si otros desarrolladores ya han referenciado el tag anterior.
+
+2. Confusion entre tags y remotos: A veces, los desarrolladores pueden tener un tag local que no coincide con el tag remoto. Si intentan crear un tag con el mismo nombre sin sincronizar correctamente, pueden surgir conflictos.
+
+3. Errores de sincronización: Si hay problemas de sincronizacion entre el repositorio local y remoto, como conflictos no resueltos o actualizaciones no aplicadas, puede parecer que hay dos tags con el mismo nombre.
+
+Para solucionar estos problemas seguiremos estos pasos:
+
+1. Eliminar el tag localmente:
+git tag -d nombre_del_tag
+
+2. Eliminar el tag del repositorio remoto:
+git push origin --delete nombre_del_tag
+
+3. Crear el nuevo tag  (si es necesario):
+git tag nombre_del_tag
+
+4. Enviar el nuevo tag al repositorio remoto:
+git push origin nombre_del_tag
+
+<p>Estos pasos aseguran que el tag sea único y esté correctamente sincronizado entre el repositorio local y el remoto.</p>
+
+
+# CLASE 08 MIÉRCOLES 2 DE OCTUBRE DEL 2024 - Portafolio 8
+
+Manejo de ramas en GitHub
+
+Si no te funciona el comando gitk es posible no lo tengas instalado por defecto.
+Para instalar gitk debemos ejecutar los siguientes comandos:
+
+```sh
+
+  sudo apt-get update
+
+
+  sudo apt-get install gitk
+
+```
+
+Repasa: ¿Qué es Git?
+
+Las ramas nos permiten hacer cambios a nuestros archivos sin modificar la versión principal (main). Puedes trabajar con ramas que nunca envías a GitHub, así como pueden haber ramas importantes en GitHub que nunca usas en el repositorio local. Lo crucial es que aprendas a manejarlas para trabajar profesionalmente.
+
+Si, estando en otra rama, modificamos los archivos y hacemos commit, tanto el historial(git log) como los archivos serán afectados. La ventaja que tiene usar ramas es que las modificaciones solo afectarán a esa rama en particular. Si luego de “guardar” los archivos(usando commit) nos movemos a otra rama (git checkout otraRama) veremos como las modificaciones de la rama pasada no aparecen en la otraRama.
+
+Comandos para manejo de ramas en GitHub
+Crear una rama:
+
+
+```sh
+git branch branchName #Crear una rama
+git checkout branchName #Movernos a otra rama 
+git checkout -b nombre-de-la-rama #Crear una rama en el repositorio local
+git push origin nombre-de-la-rama #Publicar una rama local al repositorio remoto
+```
+
+Recuerda que podemos ver gráficamente nuestro entorno y flujo de trabajo local con Git utilizando el comando gitk. Gitk fue el primer visor gráfico que se desarrolló para ver de manera gráfica el historial de un repositorio de Git.
