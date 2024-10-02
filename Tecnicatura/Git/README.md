@@ -388,3 +388,8 @@ git push origin nombre_del_tag
 
 
 # CLASE 08 MIÉRCOLES 2 DE OCTUBRE DEL 2024 - Portafolio 8
+
+Manejo de ramas en GitHub
+
+Si no te funciona el comando gitk es posible no lo tengas instalado por defecto.
+Para instalar gitk debemos ejecutar los siguientes comandos:
