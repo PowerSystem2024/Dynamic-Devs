@@ -23,7 +23,7 @@ bin/
 /dist/
 /nbdist/
 /.nb-gradle/
-/lib
+/target
 
 ### VS Code ###
 .vscode/
