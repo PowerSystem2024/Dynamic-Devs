@@ -17,7 +17,6 @@ target/
 .idea
 out/
 *.iws
-*.iml
 *.ipr
 
 ### NetBeans ###
@@ -29,6 +28,7 @@ out/
 build/
 !**/src/main/**/build/
 !**/src/test/**/build/
+/lib
 
 ### VS Code ###
 .vscode/
