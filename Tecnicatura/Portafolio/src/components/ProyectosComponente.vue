@@ -104,3 +104,22 @@ misProyectos.value = ([
     /* Aplica una animación al fondo que dura 15 segundos, tiene una transición suave y se repite infinitamente */
     animation: gradient 15s ease infinite;
 }
+
+/* Define una animación llamada 'gradient' para cambiar la posición del fondo */
+@keyframes gradient {
+
+/* Al inicio, el fondo está posicionado en el 0% horizontal y 50% vertical */
+0% {
+    background-position: 0% 50%;
+}
+
+/* A la mitad de la animación, el fondo se desplaza al 100% horizontal y 50% vertical */
+50% {
+    background-position: 100% 50%;
+}
+
+/* Al final, el fondo vuelve a la posición inicial */
+100% {
+    background-position: 0% 50%;
+}
+}
