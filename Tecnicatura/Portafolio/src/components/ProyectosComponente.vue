@@ -64,3 +64,18 @@ misProyectos.value = ([
         </li>
     </div>
 </template>
+
+<style scoped>
+/*Estilo de fondo de la galeria con un fondo estatico */
+/* .galeria {
+    width: 100%;
+    height: 100vh;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    background-image: url('/src/assets/fondo-proyectos.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+} */
