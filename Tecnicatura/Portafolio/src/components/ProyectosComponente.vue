@@ -171,3 +171,26 @@ misProyectos.value = ([
     /* Aplica un color gris oscuro (#333) al texto */
     color: #333;
 }
+
+/* Estilo para los párrafos de los proyectos */
+.proyecto-info p {
+    /* Establece un margen superior e inferior de 10px */
+    margin: 10px 0;
+    /* Define el tamaño de la fuente a 1em (igual al tamaño de fuente base) */
+    font-size: 1em;
+    /* Aplica un color gris (#666) al texto */
+    color: #666;
+}
+
+/* La clase 'proyecto-links' organiza los enlaces y botones del proyecto */
+.proyecto-links {
+    /* Utiliza flexbox para organizar los enlaces en una columna */
+    display: flex;
+    /* Establece la dirección de los elementos en columna */
+    flex-direction: column;
+    /* Establece un espacio de 10px entre los elementos */
+    gap: 10px;
+    /* Agrega un margen superior de 10px */
+    margin-top: 30px;
+
+}
