@@ -246,3 +246,14 @@ const habilidades = ref([
     font-size: 1.3em;
     transition: 2s ease;
 }
+
+@media (max-width: 768px) {
+    .skills-categoria h3 {
+        justify-content: center;
+    }
+
+    .skill {
+        justify-content: center;
+    }
+}
+</style>
