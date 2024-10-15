@@ -114,6 +114,14 @@ _Leytes Rodrigo_
 - Github: https://github.com/Roddri19
 - Linkedin: https://www.linkedin.com/in/rodrigoleytes/
 
+## 📞 Contactanos
+
+| Medio    | Link                              |
+| -------- | --------------------------------- |
+| Email    | DynamicDevs@gmail.com                   |
+| Twitter  | https://twitter.com/DynamicDevs         |
+| Linkedin | https://www.linkedin.com/in/DynamicDevs |
+
 
 
 
