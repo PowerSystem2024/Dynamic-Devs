@@ -13,7 +13,20 @@ const telefono = '+54 9 2604-474849';
 
 </script>
 <template>
-    
+    <section class="datos-personales">
+    <div class="card">
+      <h1>{{ title }}</h1>
+      <h2>{{ descripcion }}</h2>
+      <p>{{ presentacion }}</p>
+      <ul class="container-lista">
+        <li v-for="red in redesSociales" :key="red.id">
+          <a :href="red.url"><img class="icon-redsocial" :src="red.src" width="35rem" :alt="red.name"></a>
+        </li>
+      </ul>
+      <h3>☎ Mi Teléfono personal: {{ telefono }}</h3>
+      <h4>{{ residencia }}</h4>
+    </div>
+  </section>
 </template>
 <style scoped>
 
