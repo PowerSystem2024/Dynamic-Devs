@@ -2,7 +2,8 @@
  import NavBar from './components/NavBar.vue';
  import DatosPersonales from "./components/DatosPersonales.vue";
  import Educacion from './components/EducacionComponente.vue';
- import EducacionComponente from './components/EducacionComponente.vue';
+//  import EducacionComponente from './components/EducacionComponente.vue';
+import ProyectosComponente from './components/ProyectosComponente.vue';
  import ExperienciaComponente from './components/ExperienciaComponente.vue';
  </script>
 
