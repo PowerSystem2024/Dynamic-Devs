@@ -49,6 +49,23 @@ const habilidades = ref([
 </script>
 
 <template>
+    <!--Este componente vue funciona de esta forma:-->
+    <div class="skills-contenedor">
+        <!--Se recorre el array habilidades con v-for y se asigna la key habilidad.id-->
+        <div v-for="habilidad in habilidades" :key="habilidad.id" class="skills-categoria">
+            <!--Se muestra el nombre de la habilidad-->
+            <h3>{{ habilidad.nombre }}</h3>
+            <ul class="skills">
+                <!--Se recorre el array habilidades con v-for y se asigna la key habilidad.id-->
+                <li v-for="habilidad in habilidad.habilidades" :key="habilidad.id" class="skill">
+                    <!--Se muestra el icono de la habilidad y el nombre de la habilidad con su nivel-->
+                    <img :src="habilidad.icono" :alt="habilidad.nombre">
+                    <!--Se muestra el icono de la habilidad y el nombre de la habilidad con su nivel-->
+                    <span>{{ habilidad.nombre }}: {{ habilidad.nivel }}</span>
+                </li>
+            </ul>
+        </div>
+    </div>
 
     
 </template>
