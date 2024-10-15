@@ -18,3 +18,15 @@ const educacion = ref([
   {fecha: '2020', title: 'Curso de Introducción a la Programación', descripcion: 'Completé un curso en línea sobre fundamentos de programación, donde aprendí lenguajes como Python y Java.', enlace:'http:www.direccion.com'}
 ]);
 </script>
+
+<template>
+    <ul>
+        <li v-for="(item, index) in educacion" :key="index" :style="{ '--fecha-color': fechaColor[index].color}">
+        <div class="fecha">{{ item.fecha }}</div>
+        <h3 class="title">{{ item.title }}</h3>
+        <div class="descripcion">{{ item.descripcion }}</div>
+        <!--Aqui vemos con el uso de b-vind (:) que bindeamos el atributo href de html con el item.enlace-->
+        <a class="enlace" :href="item.enlace" target="_blank">Saber más</a>
+    </li>
+    </ul>
+</template>
