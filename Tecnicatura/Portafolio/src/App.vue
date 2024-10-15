@@ -1,24 +1,50 @@
 <script setup>
  import NavBar from './components/NavBar.vue';
  import DatosPersonales from "./components/DatosPersonales.vue";
+ import Educacion from './components/EducacionComponente.vue';
  import EducacionComponente from './components/EducacionComponente.vue';
+ import ExperienciaComponente from './components/ExperienciaComponente.vue';
  </script>
 
 <template>
-  <header>
-    <!-- Barra de navegacion -->
-    <NavBar></NavBar>
-    <!--Componente Datos Personales-->
-    <DatosPersonales></DatosPersonales>
+  <header id="top">
+      <!--Barra de Navegacion-->
+      <NavBar />
+      <!--Componente Datos Personales-->
+      <DatosPersonales />
   </header>
   <main>
-    <section id="educacion"><h2>Educacion - Cursos</h2></section>
-    <EducacionComponente></EducacionComponente>
-    <section id="experiencia"><h2>Experiencia</h2></section>
-    <section id="proyectos"><h2>Proyectos</h2></section>
-    <section id="habilidades"><h2>Habilidades</h2></section>
-    <section id="intereses"><h2>Intereses</h2></section>
+      <!--el estilo css de section se encuentra en base.css-->
+      <section id="educacion">
+          <h2>Educación - Cursos</h2>
+          <!--Componente Educación-->
+          <Educacion />
+      </section>
+      <section id="experiencia">
+          <h2>Experiencia</h2>
+          <!--Componente Experiencia-->
+          <ExperienciaComponente />
+      </section>
+      <section id="proyectos">
+          <h2>Proyectos</h2>
+          <!--Componente Proyectos-->
+          <ProyectosComponente />
+      </section>
+      <section id="habilidades">
+          <!--Componente Habilidades-->
+          <h2>Habilidades</h2>
+          <HabilidadesComponente />
+      </section>
+      <section id="intereses">
+          <!--Componente Intereses-->
+          <h2>Intereses</h2>
+          <InteresesComponente />
+      </section>
   </main>
+  <footer>
+      <a href="#top">Inicio</a>
+      <p>© 2024 Dynamic Devs - Portafolio web</p>
+  </footer>
 </template>
 
 <style scoped>

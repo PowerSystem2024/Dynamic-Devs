@@ -11,7 +11,7 @@
                 <p>{{ experencia.parrafo }}</p>
             </li>
 
-            <!-- <li class="item"><img class="imagen-svg" src="/src/assets/ventas.svg" width="45rem" alt="">
+             <li class="item"><img class="imagen-svg" src="/src/assets/ventas.svg" width="45rem" alt="">
                 <p>Lideré un equipo de 5 desarrolladores en la creación de una plataforma de comercio electrónico que incrementó las ventas en un 35% durante el primer año.</p>
             </li>
             <li class="item"><img class="imagen-svg" src="/src/assets/ecomerce.svg" width="45rem" alt="">
@@ -25,7 +25,7 @@
             </li>
             <li class="item"><img class="imagen-svg" src="/src/assets/watch.svg" width="45rem" alt="">
                 <p>Automaticé procesos de despliegue continuo utilizando Jenkins y Docker, reduciendo los tiempos de despliegue en un 40%.</p>
-            </li> -->
+            </li> 
         </ul>
     </div>
 </template>
