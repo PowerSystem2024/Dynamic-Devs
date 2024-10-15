@@ -123,3 +123,23 @@ misProyectos.value = ([
     background-position: 0% 50%;
 }
 }
+
+/* La clase 'proyecto' es el contenedor individual de cada proyecto */
+.proyecto {
+    /* Utiliza flexbox para organizar el contenido del proyecto en una columna */
+    display: flex;
+    /* Establece la dirección de los elementos en columna */
+    flex-direction: column;
+    /* Aplica un borde de 2px sólido y color gris claro (#ddd) alrededor del proyecto */
+    border: 2px solid #ddd;
+    /* Redondea las esquinas del contenedor */
+    border-radius: 8px;
+    /* Oculta cualquier contenido que se desborde del contenedor */
+    overflow: hidden;
+    /* Establece un color de fondo claro para el proyecto */
+    background-color: #f9f9f9;
+    /* Define el ancho máximo del proyecto en 222px */
+    max-width: 222px;
+    /* Hace que el contenedor se ajuste flexiblemente ocupando al menos 300px de ancho */
+    flex: 1 1 300px;
+}
