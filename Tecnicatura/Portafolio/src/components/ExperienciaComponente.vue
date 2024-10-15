@@ -29,3 +29,36 @@
         </ul>
     </div>
 </template>
+
+<style scoped>
+.card {
+    display: flex;
+    flex-direction: column;
+    padding: 2rem;
+    background-color: rgb(28, 41, 52);
+    border-radius: 15px;
+}
+
+.titulo {
+    font-size: 1.5rem;
+    color: coral;
+}
+
+.fecha {
+    font-size: 1rem;
+    color: burlywood;
+    margin-bottom: 1rem;
+}
+
+.listado {
+    display: flex;
+    flex-direction: column;
+}
+
+.item {
+    align-items: center;
+    display: flex;
+    padding: 1rem;
+    gap: 1.5rem;
+}
+</style>
