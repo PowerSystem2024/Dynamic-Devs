@@ -49,7 +49,7 @@ git@github.com:PowerSystem2024/Dynamic-Devs.git
 - Ejecutar el archivo `npm run dev` con la extension npm install
 - Una vez iniciada la aplicacion, la misma se podra previsualizar en el siguiente link `http://localhost:5173/#top`
 
-## 🤝 Como contribuir?
+## 🤝 ¿Como contribuir?
 
 Para contribuir, por favor seguir los siguientes pasos:
 
