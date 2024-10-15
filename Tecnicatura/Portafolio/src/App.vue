@@ -33,7 +33,7 @@ import ProyectosComponente from './components/ProyectosComponente.vue';
       </section>
       <section id="habilidades">
           <h2>Habilidades</h2>
-          <HabilidadesComponente />
+          <!-- Componente habilidades /> -->
       </section>
       <section id="intereses">
           <h2>Intereses</h2>
