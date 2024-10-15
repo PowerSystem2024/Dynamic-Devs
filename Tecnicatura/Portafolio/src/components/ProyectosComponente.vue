@@ -79,3 +79,28 @@ misProyectos.value = ([
     background-position: center;
     background-repeat: no-repeat;
 } */
+
+/* Estilos Fondo Animado de Css de la galería */
+/* La clase 'galeria' es el contenedor principal de la galería de proyectos */
+.galeria {
+    /* Establece el ancho de la galería al 100% del contenedor padre */
+    width: 100%;
+    /* Establece la altura de la galería al 100% del contenedor padre */
+    height: 100%;
+    /* Utiliza flexbox para organizar los elementos hijos en la galería */
+    display: flex;
+    /* Permite que los elementos se ajusten y pasen a la siguiente línea si no caben en una sola fila */
+    flex-wrap: wrap;
+    /* Establece un espacio de 20px entre los elementos de la galería */
+    gap: 20px;
+    /* Agrega un padding de 20px alrededor de la galería */
+    padding: 20px;
+    /* Centra los elementos hijos horizontalmente */
+    justify-content: center;
+    /* Aplica un fondo con un degradado de colores */
+    background: linear-gradient(-45deg, #021526, #03346E, #6EACDA, #E2E2B6);
+    /* Ajusta el tamaño del fondo para que cubra el área completa */
+    background-size: 400% 400%;
+    /* Aplica una animación al fondo que dura 15 segundos, tiene una transición suave y se repite infinitamente */
+    animation: gradient 15s ease infinite;
+}
