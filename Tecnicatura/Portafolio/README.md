@@ -122,6 +122,9 @@ _Leytes Rodrigo_
 | Twitter  | https://twitter.com/DynamicDevs         |
 | Linkedin | https://www.linkedin.com/in/DynamicDevs |
 
+## 📄 Licencia
+
+Codigo y documentacion copyright 2024-2025 de los autores de Dynamic Devs. Distribuido bajo la licencia MIT. Consulte el archivo LICENSE.md para obtener mas informacion.
 
 
 
