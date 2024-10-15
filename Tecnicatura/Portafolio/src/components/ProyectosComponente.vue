@@ -153,3 +153,21 @@ misProyectos.value = ([
     /* Asegura que la imagen se muestre como un bloque, sin espacio en línea alrededor */
     display: block;
 }
+
+/* La clase 'proyecto-info' contiene la información del proyecto */
+.proyecto-info {
+    /* Agrega un padding de 15px alrededor de la información */
+    padding: 15px;
+    /* Centra el texto dentro del contenedor */
+    text-align: center;
+}
+
+/* Estilo para los títulos de los proyectos */
+.proyecto-info h3 {
+    /* Establece un margen superior e inferior de 10px */
+    margin: 10px 0;
+    /* Define el tamaño de la fuente a 1.3em (relativo al tamaño de fuente del contenedor) */
+    font-size: 1.3em;
+    /* Aplica un color gris oscuro (#333) al texto */
+    color: #333;
+}
