@@ -19,9 +19,9 @@
 ## ⚒️ Tecnologias implementadas
 
 
-[![HTML5-badge]][HTML-url]
-[![CSS3-badge]][CSS3-url]
-![Vue-badge](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D)
+[![HTML5-badge]][HTML-url] <br>
+[![CSS3-badge]][CSS3-url] <br>
+![Vue-badge](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) <br>
 ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white) 
 
 
