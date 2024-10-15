@@ -24,6 +24,32 @@
 ![Vue-badge](https://img.shields.io/badge/vue.js-%2335495e.svg?style=for-the-badge&logo=vuedotjs&logoColor=%234FC08D) <br>
 ![GithubPages](https://img.shields.io/badge/github%20pages-121013?style=for-the-badge&logo=github&logoColor=white) 
 
+## ✅ Requisitos
+
+- Windows 10 o superior
+- Github
+- Visual Code
+
+> [!IMPORTANT] <br>
+> Para que funcione el proyecto en su PC debe cumplir con el **todos** los requisitos
+
+## 💿 Instalacion y uso
+
+- Clonar repositorio:
+
+```bash
+https://github.com/PowerSystem2024/Dynamic-Devs.git
+```
+Tambien se podrá hacer con la clave SSH (Recomendado)
+```bash
+git@github.com:PowerSystem2024/Dynamic-Devs.git
+```
+
+- Asegurarse que se encuentra en la rama `main`
+- Ejecutar el archivo `npm run dev` con la extension npm install
+- Una vez iniciada la aplicacion, la misma se podra previsualizar en el siguiente link `http://localhost:5173/#top`
+
+
 
 
 
