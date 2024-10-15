@@ -194,3 +194,43 @@ misProyectos.value = ([
     margin-top: 30px;
 
 }
+
+/* Estilo para el botón 'Ver Más' dentro de la clase 'proyecto-links' */
+.proyecto-links .btn-ver-mas {
+    /* Aplica un color de fondo azul (#007BFF) */
+    background-color: #007BFF;
+    /* Aplica un color de texto blanco */
+    color: #fff;
+    /* Agrega un padding de 10px en vertical y 15px en horizontal */
+    padding: 10px 15px;
+    /* Redondea las esquinas del botón */
+    border-radius: 5px;
+    /* Elimina el subrayado del texto */
+    text-decoration: none;
+    /* Aplica una transición suave al cambiar el color de fondo */
+    transition: background-color 0.3s;
+    margin-top: 1rem;
+}
+
+/* Estilo para cuando el botón 'Ver Más' es hover */
+.proyecto-links .btn-ver-mas:hover {
+    /* Cambia el color de fondo a un azul más oscuro (#0056b3) */
+    background-color: #0056b3;
+}
+
+/* Estilo para el enlace a GitHub dentro de la clase 'proyecto-links' */
+.proyecto-links .github-link {
+    /* Aplica un color gris oscuro (#333) al texto */
+    color: #333;
+    /* Elimina el subrayado del texto */
+    text-decoration: none;
+    /* Establece el tamaño de fuente a 0.9em (un poco más pequeño que el tamaño base) */
+    font-size: 0.9em;
+}
+
+/* Estilo para cuando el enlace a GitHub es hover */
+.proyecto-links .github-link:hover {
+    /* Añade un subrayado al texto */
+    text-decoration: underline;
+}
+</style>
