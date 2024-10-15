@@ -43,5 +43,24 @@ misProyectos.value = ([
 </script>
 
 <template>
-
+    <!-- Aquí va el código HTML de la galería de proyectos -->
+    <div class="galeria">
+        <!-- Itera sobre cada proyecto en la lista de misProyectos -->
+        <!--key es una propiedad especial que se utiliza para identificar de forma única cada elemento en una lista de Vue.js-->
+        <li class="proyecto" v-for="proyecto in misProyectos" :key="proyecto.id">
+            <!-- Muestra la imagen del proyecto utilizando : que es una directiva de enlace de atributo en Vue.js -->
+            <img :src="proyecto.src" :alt="proyecto.titlulo">
+            <div class="proyecto-info">
+                <!-- Muestra el título y la descripción del proyecto utilizando la interpolación de Vue.js -->
+                <h3>{{ proyecto.titulo }}</h3>
+                <p>{{ proyecto.descripcion }}</p>
+                <div class="proyecto-links">
+                    <a :href="proyecto.projectoLink" class="btn-ver-mas" target="_blank" rel="noopener noreferrer">Ver
+                        Proyecto</a>
+                    <a :href="proyecto.githubLink" class="github-link" target="_blank" rel="noopener noreferrer">Ver
+                        Código en GitHub</a>
+                </div>
+            </div>
+        </li>
+    </div>
 </template>
