@@ -143,3 +143,13 @@ misProyectos.value = ([
     /* Hace que el contenedor se ajuste flexiblemente ocupando al menos 300px de ancho */
     flex: 1 1 300px;
 }
+
+/* Estilo para las imágenes dentro del contenedor 'proyecto' */
+.proyecto img {
+    /* Hace que la imagen ocupe el 100% del ancho del contenedor */
+    width: 100%;
+    /* Mantiene la relación de aspecto de la imagen */
+    height: auto;
+    /* Asegura que la imagen se muestre como un bloque, sin espacio en línea alrededor */
+    display: block;
+}
