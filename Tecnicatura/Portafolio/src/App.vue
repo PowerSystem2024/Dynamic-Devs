@@ -31,12 +31,10 @@
           <ProyectosComponente />
       </section>
       <section id="habilidades">
-          <!--Componente Habilidades-->
           <h2>Habilidades</h2>
           <HabilidadesComponente />
       </section>
       <section id="intereses">
-          <!--Componente Intereses-->
           <h2>Intereses</h2>
           <InteresesComponente />
       </section>
