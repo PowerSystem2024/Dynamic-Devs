@@ -1,6 +1,7 @@
 //let persona3 = new Persona('Carla', 'Ponce');
 
-class Persona{  //Clase padre
+//Siempre se hereda automaticamente de la clase Object ( es la clase padre de todos los objetos en javascript)
+class Persona extends Object{  //Clase padre
     constructor(nombre, apellido){
         this._nombre = nombre;
         this._apellido = apellido;
@@ -24,6 +25,12 @@ class Persona{  //Clase padre
 
     nombreCompleto(){
         return this._nombre+" "+this._apellido;
+    }
+
+    //SObreescribiendo el metodo de la clase Object(padre)
+    toString(){
+        //Se aplica polimorfismo
+        return this.nombreCompleto();
     }
 }
 
@@ -72,3 +79,7 @@ let empleado1 = new Empleado('Miqueas', 'Gimenez', 'Sistemas');
 console.log(empleado1);
 console.log(empleado1.nombre);
 console.log(empleado1.nombreCompleto());
+
+//Polimorfismo
+console.log(empleado1.toString());
+console.log(persona1.toString());//Se llama dependiendo al objeto que estamos apuntando
