@@ -27,5 +27,49 @@
 </template>
 
 <style scoped>
+    @keyframes rotate {
+    0% {
+        transform: rotate(0deg);
+    }
+
+    100% {
+        transform: rotate(360deg);
+    }
+}
+
+.out-top {
+    animation: rotate 20s linear infinite;
+    transform-origin: 13px 25px;
+}
+
+.in-top {
+    animation: rotate 55s linear infinite;
+    transform-origin: 13px 25px;
+}
+
+.out-bottom {
+    animation: rotate 25s linear infinite;
+    transform-origin: 84px 93px;
+}
+
+.in-bottom {
+    animation: rotate 15s linear infinite;
+    transform-origin: 84px 93px;
+}
+
+/* body {
+    background-color: #fee440;
+
+} */
+
+svg {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 95%;
+    z-index: -1;
+    border-radius: 5px;
+}
 
 </style>
