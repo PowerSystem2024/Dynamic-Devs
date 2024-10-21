@@ -25,3 +25,7 @@
             target="_blank">tutorial<img class="icon" src="https://ksenia-k.com/img/icons/link.svg"></a>
     </div> -->
 </template>
+
+<style scoped>
+
+</style>
