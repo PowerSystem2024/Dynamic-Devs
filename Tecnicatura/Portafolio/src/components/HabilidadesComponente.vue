@@ -17,8 +17,8 @@ import img15 from '/src/components/icons/visual.svg'
 import img16 from '/src/components/icons/mongo.svg'
 import img17 from '/src/components/icons/mysql.svg'
 import img18 from '/src/components/icons/postgres.svg'
-import img19 from
-import img20 from
+import img19 from '/src/components/icons/arg.svg'
+import img20 from '/src/components/icons/eeuu.svg'
 
 //Se importa ref de vue para poder usarlo
 import { ref } from 'vue';
@@ -62,8 +62,8 @@ const habilidades = ref([
     },
     {
         id: 5, nombre: 'Idiomas', habilidades: [
-            { id: 1, nombre: 'Español', nivel: 'Nativo', icono: '/src/components/icons/arg.svg' },
-            { id: 2, nombre: 'Inglés', nivel: 'Intermedio (B1)', icono: '/src/components/icons/eeuu.svg' }
+            { id: 1, nombre: 'Español', nivel: 'Nativo', icono: img19 },
+            { id: 2, nombre: 'Inglés', nivel: 'Intermedio (B1)', icono: img20}
         ]
     }
 ]);
