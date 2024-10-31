@@ -13,11 +13,11 @@ const habilidades = ref([
     {// Se crea un objeto con id, nombre y habilidades
         id: 1, nombre: 'Lenguajes de Programación', habilidades: [
             //Se crea un objeto con id, nombre, nivel e icono
-            { id: 1, nombre: 'JavaScript', nivel: 'Avanzado', icono: '/src/components/icons/js.svg' },
-            { id: 2, nombre: 'Python', nivel: 'Intermedio', icono: '/src/components/icons/python.svg' },
-            { id: 3, nombre: 'HTML/CSS', nivel: 'Avanzado', icono: '/src/components/icons/html-css.svg' },
-            { id: 4, nombre: 'Java', nivel: 'Intermedio', icono: '/src/components/icons/java.svg' },
-            { id: 5, nombre: 'SQL', nivel: 'Avanzado', icono: '/src/components/icons/sql.svg' }
+            { id: 1, nombre: 'JavaScript', nivel: 'Avanzado', icono: img1 },
+            { id: 2, nombre: 'Python', nivel: 'Intermedio', icono:  img2 },
+            { id: 3, nombre: 'HTML/CSS', nivel: 'Avanzado', icono: img3 },
+            { id: 4, nombre: 'Java', nivel: 'Intermedio', icono: img4 },
+            { id: 5, nombre: 'SQL', nivel: 'Avanzado', icono: img5 }
         ]
     },
     {
