@@ -4,6 +4,21 @@ import img2 from '/src/components/icons/python.svg'
 import img3 from '/src/components/icons/html-css.svg'
 import img4 from '/src/components/icons/java.svg'
 import img5 from '/src/components/icons/sql.svg'
+import img6 from '/src/components/icons/react.svg' 
+import img7 from '/src/components/icons/vue.svg'
+import img8 from '/src/components/icons/node.svg'
+import img9 from '/src/components/icons/django.svg'
+import img10 from '/src/components/icons/bootstrap.svg'
+import img11 from
+import img12 from
+import img13 from
+import img14 from
+import img15 from
+import img16 from
+import img17 from
+import img18 from
+import img19 from
+import img20 from
 
 //Se importa ref de vue para poder usarlo
 import { ref } from 'vue';
@@ -22,11 +37,11 @@ const habilidades = ref([
     },
     {
         id: 2, nombre: 'Frameworks y Librerías', habilidades: [
-            { id: 1, nombre: 'React.js', nivel: 'Avanzado', icono: '/src/components/icons/react.svg' },
-            { id: 2, nombre: 'Vue.js', nivel: 'Intermedio', icono: '/src/components/icons/vue.svg' },
-            { id: 3, nombre: 'Node.js', nivel: 'Avanzado', icono: '/src/components/icons/node.svg' },
-            { id: 4, nombre: 'Django', nivel: 'Intermedio', icono: '/src/components/icons/django.svg' },
-            { id: 5, nombre: 'Bootstrap', nivel: 'Avanzado', icono: '/src/components/icons/bootstrap.svg' }
+            { id: 1, nombre: 'React.js', nivel: 'Avanzado', icono: img6 },
+            { id: 2, nombre: 'Vue.js', nivel: 'Intermedio', icono: img7 },
+            { id: 3, nombre: 'Node.js', nivel: 'Avanzado', icono: img8 },
+            { id: 4, nombre: 'Django', nivel: 'Intermedio', icono: img9 },
+            { id: 5, nombre: 'Bootstrap', nivel: 'Avanzado', icono: img10 }
         ]
     },
     {
