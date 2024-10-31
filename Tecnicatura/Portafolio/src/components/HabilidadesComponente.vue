@@ -9,11 +9,11 @@ import img7 from '/src/components/icons/vue.svg'
 import img8 from '/src/components/icons/node.svg'
 import img9 from '/src/components/icons/django.svg'
 import img10 from '/src/components/icons/bootstrap.svg'
-import img11 from
-import img12 from
-import img13 from
-import img14 from
-import img15 from
+import img11 from '/src/components/icons/git.svg'
+import img12 from '/src/components/icons/docker.svg'
+import img13 from '/src/components/icons/cypress.svg'
+import img14 from '/src/components/icons/figma.svg'
+import img15 from '/src/components/icons/visual.svg'
 import img16 from
 import img17 from
 import img18 from
@@ -46,11 +46,11 @@ const habilidades = ref([
     },
     {
         id: 3, nombre: 'Herramientas y Software', habilidades: [
-            { id: 1, nombre: 'Git', nivel: 'Avanzado', icono: '/src/components/icons/git.svg' },
-            { id: 2, nombre: 'Docker', nivel: 'Intermedio', icono: '/src/components/icons/docker.svg' },
-            { id: 3, nombre: 'Cypress', nivel: 'Intermedio', icono: '/src/components/icons/cypress.svg' },
-            { id: 4, nombre: 'Figma', nivel: 'Intermedio', icono: '/src/components/icons/figma.svg' },
-            { id: 5, nombre: 'Visual Studio Code', nivel: 'Avanzado', icono: '/src/components/icons/visual.svg' }
+            { id: 1, nombre: 'Git', nivel: 'Avanzado', icono: img11 },
+            { id: 2, nombre: 'Docker', nivel: 'Intermedio', icono: img12 },
+            { id: 3, nombre: 'Cypress', nivel: 'Intermedio', icono: img13 },
+            { id: 4, nombre: 'Figma', nivel: 'Intermedio', icono: img14 },
+            { id: 5, nombre: 'Visual Studio Code', nivel: 'Avanzado', icono: img15 }
         ]
     },
     {
