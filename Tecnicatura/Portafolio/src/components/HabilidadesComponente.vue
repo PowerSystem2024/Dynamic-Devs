@@ -14,9 +14,9 @@ import img12 from '/src/components/icons/docker.svg'
 import img13 from '/src/components/icons/cypress.svg'
 import img14 from '/src/components/icons/figma.svg'
 import img15 from '/src/components/icons/visual.svg'
-import img16 from
-import img17 from
-import img18 from
+import img16 from '/src/components/icons/mongo.svg'
+import img17 from '/src/components/icons/mysql.svg'
+import img18 from '/src/components/icons/postgres.svg'
 import img19 from
 import img20 from
 
@@ -55,9 +55,9 @@ const habilidades = ref([
     },
     {
         id: 4, nombre: 'Bases de Datos', habilidades: [
-            { id: 1, nombre: 'MongoDB', nivel: 'Avanzado', icono: '/src/components/icons/mongo.svg' },
-            { id: 2, nombre: 'MySQL', nivel: 'Avanzado', icono: '/src/components/icons/mysql.svg' },
-            { id: 3, nombre: 'PostgreSQL', nivel: 'Avanzado', icono: '/src/components/icons/postgres.svg' }
+            { id: 1, nombre: 'MongoDB', nivel: 'Avanzado', icono: img16 },
+            { id: 2, nombre: 'MySQL', nivel: 'Avanzado', icono: img17 },
+            { id: 3, nombre: 'PostgreSQL', nivel: 'Avanzado', icono: img18 }
         ]
     },
     {
