@@ -1,4 +1,10 @@
 <script setup>
+import img1 from '/src/components/icons/js.svg'
+import img2 from '/src/components/icons/python.svg'
+import img3 from '/src/components/icons/html-css.svg'
+import img4 from '/src/components/icons/java.svg'
+import img5 from '/src/components/icons/sql.svg'
+
 //Se importa ref de vue para poder usarlo
 import { ref } from 'vue';
 //Se crea un array de objetos con las habilidades
