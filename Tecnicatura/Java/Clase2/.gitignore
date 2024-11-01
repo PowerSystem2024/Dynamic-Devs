@@ -3,7 +3,6 @@ out/
 .idea/
 !**/src/main/**/out/
 !**/src/test/**/out/
-*.iml
 
 ### Eclipse ###
 .apt_generated
@@ -23,8 +22,14 @@ bin/
 /dist/
 /nbdist/
 /.nb-gradle/
+<<<<<<< HEAD
 /lib/
 /target/
+=======
+/target
+/build
+
+>>>>>>> 37e75e37e476139ef05d40e708074c614e72439d
 ### VS Code ###
 .vscode/
 
