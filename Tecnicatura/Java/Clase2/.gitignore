@@ -23,6 +23,7 @@ bin/
 /nbdist/
 /.nb-gradle/
 <<<<<<< HEAD
+<<<<<<< HEAD
 /lib/
 /target/
 =======
@@ -30,6 +31,12 @@ bin/
 /build
 
 >>>>>>> 37e75e37e476139ef05d40e708074c614e72439d
+=======
+/lib/
+/target
+/build
+
+>>>>>>> ee4abba483bf38609355b8eaa4162b8647773a31
 ### VS Code ###
 .vscode/
 
