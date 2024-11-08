@@ -6,6 +6,7 @@
 import ProyectosComponente from './components/ProyectosComponente.vue';
  import ExperienciaComponente from './components/ExperienciaComponente.vue';
  import HabilidadesComponente from './components/HabilidadesComponente.vue';
+ import InteresesComponente from './components/InteresesComponente.vue';
  </script>
 
 <template>
