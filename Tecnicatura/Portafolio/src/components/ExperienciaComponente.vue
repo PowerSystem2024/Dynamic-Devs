@@ -1,9 +1,9 @@
 <script setup>
-import icono1 from '/src/assets/ventas.svg'
-import icono2 from '/src/assets/ecomerce.svg'
-import icono3 from '/src/assets/configuracion.svg'
-import icono4 from '/src/assets/uiux.svg'
-import icono5 from '/src/assets/watch.svg'
+import icono1 from './src/assets/ventas.svg'
+import icono2 from './src/assets/ecomerce.svg'
+import icono3 from './src/assets/configuracion.svg'
+import icono4 from './src/assets/uiux.svg'
+import icono5 from './src/assets/watch.svg'
 
 
 import { ref } from 'vue';
