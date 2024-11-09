@@ -1,8 +1,8 @@
 <script setup>
-import proyecto1 from "./src/assets/restaurant.png"
-import proyecto2 from "./src/assets/e-learning.png"
-import proyecto3 from "./src/assets/blog.png"
-import proyecto4 from "./src/assets/restaurant.png"
+import proyecto1 from "/src/assets/restaurant.png"
+import proyecto2 from "/src/assets/e-learning.png"
+import proyecto3 from "/src/assets/blog.png"
+import proyecto4 from "/src/assets/restaurant.png"
 
 // Este componente muestra una galería de proyectos con información sobre cada proyecto
 import { ref } from 'vue';
