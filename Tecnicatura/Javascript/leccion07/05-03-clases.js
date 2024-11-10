@@ -32,6 +32,8 @@ class Persona extends Object{  //Clase padre
         //Se aplica polimorfismo
         return this.nombreCompleto();
     }
+
+    
 }
 
 class Empleado extends Persona{  //clase hija
