@@ -1,7 +1,7 @@
 # DynamicDevs⚡
 Repositorio del segundo semestre del grupo "DynamicDevs" estudiantes de la Tec. en Programacion.
 ## Instituto 🏛️
-Universisad Tecnológica Nacional San Rafael, Mendoza, Argentina
+Universidad Tecnológica Nacional San Rafael, Mendoza, Argentina
 ## Cátedra 📖
 Programacion II
 ## Integrantes 👨‍💻
