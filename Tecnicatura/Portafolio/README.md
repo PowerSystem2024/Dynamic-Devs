@@ -1,5 +1,6 @@
 # Portafolio Vue "Dynamic Devs" ⚡ 
-
+## Proyecto deployado:
+_Link_: https://dynamic-devs.netlify.app/
 ## 📋 Tabla de contenido
 <!----Control mas espacio para seleccionar categoria en el parentesis---->
 - [💻 Tabla de contenido](#📋-tabla-de-contenido)

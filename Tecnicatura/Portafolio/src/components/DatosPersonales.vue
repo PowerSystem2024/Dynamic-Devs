@@ -1,8 +1,8 @@
 <script setup>
-import linkedin from './src/assets/linkedin_icon.svg';
-import instagram from './src/assets/instagram_icon.svg';
-import github from './src/assets/github_icon.svg';
-import cv from './src/assets/cv_resume_icon.svg';
+import linkedin from '/src/assets/linkedin_icon.svg';
+import instagram from '/src/assets/instagram_icon.svg';
+import github from '/src/assets/github_icon.svg';
+import cv from '/src/assets/cv_resume_icon.svg';
 
 
 
